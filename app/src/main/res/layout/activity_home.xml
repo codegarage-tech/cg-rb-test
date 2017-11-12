@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guillotine_actionbar_background_view_height"
+        android:layout_gravity="top"
+        android:background="@color/guillotine_background" />
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_base" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4E6E3">
+
+            <com.jude.easyrecyclerview.EasyRecyclerView
+                android:id="@+id/rv_deleted_file"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp"
+                app:layout_empty="@layout/view_empty"
+                app:layout_progress="@layout/view_progress" />
+
+            <View
+                android:id="@+id/touch_interceptor_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include layout="@layout/layout_unfoldable_detail" />
+
+            <com.alexvasilkov.foldablelayout.UnfoldableView
+                android:id="@+id/unfoldable_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.yalantis.filter.widget.Filter
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_scanning" />
+
+</FrameLayout>

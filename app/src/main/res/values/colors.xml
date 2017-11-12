@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>-->
+
+    <!--
+    <color name="colorPrimary">#FFEB3B</color>
+        <color name="colorPrimaryDark">#FBC02D</color>
+        <color name="colorPrimaryLight">#FFF9C4</color>
+        <color name="colorAccent">#FFC107</color>
+    -->
+
+    <color name="colorPrimary">#00B4F2</color>
+    <color name="colorPrimaryDark">#0071C9</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dividerDark">#c7c4c4</color>
+
+    <color name="primary_deep_purple">#673AB7</color>
+    <color name="primary_indigo">#3F51B5</color>
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_light_blue">#03A9F4</color>
+    <color name="primary_cyan">#00BCD4</color>
+    <color name="primary_teal">#009688</color>
+    <color name="primary_light_green">#8BC34A</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_deep_orange">#FF5722</color>
+    <color name="primary_red">#F44336</color>
+    <color name="primary_green_light">#be69be91</color>
+    <color name="primary_green_dark">#be3fbf7c</color>
+    <color name="primary_yellow_dark">#beefef2c</color>
+
+    <color name="guillotine_background">#6d6b7b</color>
+    <color name="guillotine_background_dark">#272531</color>
+    <color name="selected_item_color">#30d1d5</color>
+    <color name="dark_transparent">#77000000</color>
+
+    <array name="colors">
+        <item name="all_categories" type="color">#827f93</item>
+        <item name="image" type="color">#c467f4</item>
+        <item name="music" type="color">#3b9aee</item>
+        <item name="movie" type="color">#fc6177</item>
+        <item name="document" type="color">#f4a261</item>
+        <item name="zip" type="color">#1ed2bb</item>
+        <item name="apk" type="color">#778da9</item>
+        <item name="other" type="color">#9f9fed</item>
+    </array>
+
+    <color name="scanning_bg">#ececec</color>
+    <color name="transparent_bg">#33000000</color>
+</resources>

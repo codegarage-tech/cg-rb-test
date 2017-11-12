@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RecycleBin</string>
+    <string name="app_version_name" translatable="false">1.0.0</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_home">Recycle Bin</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_file_detail">File Detail</string>
+
+    <!--  Filter -->
+    <string name="str_all_selected">All categories</string>
+
+    <string-array name="deleted_file_tag">
+        <item>All Categories</item>
+        <item>Image</item>
+        <item>Music</item>
+        <item>Movie</item>
+        <item>Document</item>
+        <item>Zip</item>
+        <item>Apk</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--  selected menu -->
+    <string name="title_action_delete">Delete</string>
+
+    <!-- Dialog message -->
+    <string name="dialog_attention">Attention</string>
+    <string name="dialog_message">Do you want to delete</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+</resources>
